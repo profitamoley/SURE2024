@@ -8,14 +8,14 @@ I assembled the whole chloroplast genomes from the raw data, and used this to bu
 
 ## Step 1: Assembling Eremochloa chloroplast DNA with GetOrganelle
 
-# Step 2: Assembling Alloteropis whole genomes using Hifiasm
+## Step 2: Assembling Alloteropis whole genomes using Hifiasm
 
-# Step 3: Annotating Alloteropsis genomes with Helixer
+## Step 3: Annotating Alloteropsis genomes with Helixer
 
-# Step 4: Mapping Alloteropsis to Eremochloa with Bowtie2
+## Step 4: Mapping Alloteropsis to Eremochloa with Bowtie2
 
-# Step 5: Building a phylogeny
+## Step 5: Building a phylogeny
 
 PhyML SMS, Genious
 
-# Step 6: Visualising alignments with IGV
+## Step 6: Visualising alignments with IGV
