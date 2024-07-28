@@ -4,7 +4,7 @@
 #SBATCH -c 24 # CPU core (64 max)
 #SBATCH --mem=100G # memory required, up to 250G on standard nodes
 #SBATCH -t 24:00:00 # time limit for job (format: days-hours:minutes:seconds) max 96hrs
-#SBATCH --array=1-11%10 # Number of jobs within array
+#SBATCH --array=1-12%10 # Number of jobs within array
 #SBATCH --mail-user=lpayne4@sheffield.ac.uk # Email address to sent status report
 #SBATCH --mail-type=BEGIN,END,FAIL # Types of status update to email
 
@@ -15,6 +15,7 @@
 #       Last updated:   14/06/2024
 ####################################################################################################
 
+#activate getorganelle environment
 source /users/bob21lp/miniconda3/bin/activate
 source activate /users/bob21lp/miniconda3/envs/getorganelle
 
@@ -27,10 +28,13 @@ echo "this is job ${sample}"
 #########
 
 # Getorganelle script to retrieve chloroplast genomes
-# add stuff to same line
-# make new bash script
-get_organelle_from_reads.py -s Eremochloa_reference_chloros.fasta -1 /mnt/parscratch/users/bob21lp/Eremochloa/Raw_data/${sample}R1.fastq.gz -2 /mnt/parscratch/users/bob21lp/Eremochloa/Raw_data/${sample}R2.fastq.
-gz -t 24 -o ${sample}_chloroplast -F embplant_pt
+get_organelle_from_reads.py \
+-s Eremochloa_reference_chloros.fasta \
+-1 /mnt/parscratch/users/bob21lp/Eremochloa/Raw_data/${sample}R1.fastq.gz \
+-2 /mnt/parscratch/users/bob21lp/Eremochloa/Raw_data/${sample}R2.fastq.gz \
+-t 24 \
+-o ${sample}_chloroplast \
+-F embplant_pt
 
 # -w # reduce by 10
 # --reduce-reads-for-coverage inf \
