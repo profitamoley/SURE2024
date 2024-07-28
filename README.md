@@ -6,7 +6,7 @@ One of the previously identified fragments of foreign DNA in the Alloteropsis se
 
 I assembled the whole chloroplast genomes from the raw data, and used this to build phylogenetic trees to determine which species the sequence in the Alloteropsis semialata genome is most closely related to.
 
-# Step 1: Assembling Eremochloa chloroplast DNA with GetOrganelle
+## Step 1: Assembling Eremochloa chloroplast DNA with GetOrganelle
 
 # Step 2: Assembling Alloteropis whole genomes using Hifiasm
 
