@@ -1,4 +1,4 @@
-##Step 1.a
+## Step 1.a
 
 Using GetOrganelle to assemble Eremochloa chloro DNA:
 
