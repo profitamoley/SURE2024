@@ -1,4 +1,4 @@
-## Step 1.a
+## Step 1.1 Chloroplast assembly
 
 Using GetOrganelle to assemble Eremochloa chloro DNA:
 
