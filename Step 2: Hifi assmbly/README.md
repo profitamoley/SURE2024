@@ -12,6 +12,6 @@ Extract contigs:
 
 Check assembly quality with BUSCO and QUAST:
 
-1. busco.sh
-2. quast.sh
+1. `busco.sh`
+2. `quast.sh`
 
