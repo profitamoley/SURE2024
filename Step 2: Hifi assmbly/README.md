@@ -8,3 +8,10 @@ Hifiasm:
 Extract contigs:
 `awk '$1=="S"' asm.bp.p_ctg.gfa | sed 's/^S\t//; s/\t/\n/' > contigs.fasta`
 
+## 2.3
+
+Check assembly quality with BUSCO and QUAST:
+
+1. busco.sh
+2. quast.sh
+
