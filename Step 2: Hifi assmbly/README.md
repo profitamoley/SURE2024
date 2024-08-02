@@ -10,3 +10,5 @@ Then extract contigs and check quality of assembly with BUSCO and QUAST:
 2. `busco.sh`
 3. `quast.sh`
 
+BLAST results to see if Erenochloa present:
+
