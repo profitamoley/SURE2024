@@ -1,17 +1,12 @@
-## 2.1 
+Hifi assembly with Hifiasm:
+Hifiasm GitHub:
 
-Hifiasm:
+Run Hifiasm:
 `hifiasm -o AUS1-HiFi.asm -t 64 WHPBRViwht20240523-2044.fastq.gz`
 
-## 2.2
+Then extract contigs and check quality of assembly with BUSCO and QUAST:
 
-Extract contigs:
-`awk '$1=="S"' asm.bp.p_ctg.gfa | sed 's/^S\t//; s/\t/\n/' > contigs.fasta`
-
-## 2.3
-
-Check assembly quality with BUSCO and QUAST:
-
-1. `busco.sh`
-2. `quast.sh`
+1. `awk '$1=="S"' asm.bp.p_ctg.gfa | sed 's/^S\t//; s/\t/\n/' > species_contigs.fasta`
+2. `busco.sh`
+3. `quast.sh`
 
