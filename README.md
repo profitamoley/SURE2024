@@ -12,7 +12,7 @@ I assembled the whole chloroplast genomes from the raw data, and used this to bu
 
 ## Step 3: Annotating Alloteropsis genomes with Helixer
 
-## Step 4: Mapping Alloteropsis to Eremochloa with Bowtie2
+## Step 4: Aligning Erem to Allo
 
 ## Step 5: Building a phylogeny
 
