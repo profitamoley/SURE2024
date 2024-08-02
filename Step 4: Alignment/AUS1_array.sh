@@ -27,3 +27,6 @@ bowtie2 -x ${reference1} -1 ${data}/${sample}_R1.fastq.gz -2 ${data}/${sample}_R
 
 #convert .sam to .bam files
 samtools view -bS ${sample}.bam
+
+#sort bam files
+samtools sort ${sample}.bam -o ${sample}_SORTED.bam
