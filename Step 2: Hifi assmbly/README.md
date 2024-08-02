@@ -10,5 +10,9 @@ Then extract contigs and check quality of assembly with BUSCO and QUAST:
 2. `busco.sh`
 3. `quast.sh`
 
-BLAST results to see if Erenochloa present:
+Run BLAST:
+`BLAST.sh`
+
+Found Eremochloa top hits in AUS1 and TWN102 accessions 
+- extracted these regions and added them into the alignment
 
